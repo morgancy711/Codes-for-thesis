@@ -20,7 +20,7 @@ ylabel=("Gene Name")
 xlabel=("Cell Type")
 plt.ylabel(ylabel, fontsize=15)
 plt.xlabel(xlabel, fontsize=15)
-# label plot title and file name with whatever
+# label plot title and file name with whatever cell type and function is related
 plt.title(label='plot_title', fontsize=20) 
 
 plt.savefig(fname='plot_title.svg', format='svg')
